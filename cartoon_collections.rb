@@ -21,6 +21,5 @@ def find_the_cheese(snacks)
  # snacks.include?(cheese_types)
    snacks.detect do |item| 
      binding.pry
-     "cheddar"
    end
 end
